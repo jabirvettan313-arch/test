@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institutional Business Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 1. Header & Navigation -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <h1>Brand<span>Name</span></h1>
+            </div>
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#testimonials">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="cta-nav">
+                <a href="#contact" class="btn btn-accent">Get a Quote</a>
+            </div>
+            <!-- Mobile Menu Toggle -->
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>Empowering Your Future with Excellence</h1>
+            <p>Delivering innovative strategies and comprehensive solutions<br>to drive your business forward in a dynamic world.</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">Explore Our Services</a>
+                <a href="#about" class="btn btn-outline-light">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. About Us Section -->
+    <section id="about" class="about section-light">
+        <div class="container about-container">
+            <div class="about-image">
+                <div class="image-placeholder">
+                    <span>Professional Team Image Placeholder</span>
+                </div>
+            </div>
+            <div class="about-text">
+                <h2>Who We Are</h2>
+                <p>With over a decade of excellence, we are committed to providing top-tier solutions that foster growth and innovation. Our mission is to empower institutions through strategic insights, dedicated support, and unparalleled expertise. We value integrity, transparency, and a client-first approach in everything we do.</p>
+                <a href="#" class="read-more">Read Our Story &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Services Section -->
+    <section id="services" class="services section-gray">
+        <div class="container">
+            <h2 class="section-title">Our Key Services</h2>
+            <div class="services-grid">
+                <!-- Card 1 -->
+                <div class="service-card">
+                    <div class="icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path><path d="M22 12A10 10 0 0 0 12 2v10z"></path></svg>
+                    </div>
+                    <h3>Consulting</h3>
+                    <p>Expert advice to help you navigate complex challenges and optimize your operations.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="service-card">
+                    <div class="icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
+                    </div>
+                    <h3>Strategy</h3>
+                    <p>Data-driven strategies designed to accelerate growth and maximize efficiency.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="service-card">
+                    <div class="icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    </div>
+                    <h3>Support</h3>
+                    <p>Dedicated 24/7 support ensuring your systems run seamlessly around the clock.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Why Choose Us Section -->
+    <section id="why-us" class="why-us section-dark">
+        <div class="container">
+            <div class="stats-grid" id="stats-section">
+                <div class="stat-item">
+                    <div class="stat-icon">🏆</div>
+                    <h3 class="counter" data-target="10">0</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">👥</div>
+                    <h3 class="counter" data-target="500">0</h3>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">🌍</div>
+                    <h3 class="counter" data-target="25">0</h3>
+                    <p>Global Reach</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">🎧</div>
+                    <h3 class="counter" data-target="24">0</h3>
+                    <p>24/7 Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Testimonials Section -->
+    <section id="testimonials" class="testimonials section-light">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"An absolutely phenomenal experience. Their strategic insights completely transformed our business trajectory."</p>
+                    <h4>Jane Doe</h4>
+                    <span>CEO, TechCorp</span>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Professional, responsive, and incredibly effective. I highly recommend their services to any growing institution."</p>
+                    <h4>John Smith</h4>
+                    <span>Director, GlobalReach</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. CTA Banner -->
+    <section class="cta-banner">
+        <div class="container cta-banner-content">
+            <h2>Ready to take your business to the next level?</h2>
+            <a href="#contact" class="btn btn-dark">Contact Our Experts Today</a>
+        </div>
+    </section>
+
+    <!-- 8. Footer -->
+    <footer id="contact">
+        <div class="container footer-container">
+            <div class="footer-col brand-col">
+                <h3>Brand<span>Name</span></h3>
+                <p>Empowering your future with excellence and strategic innovation.</p>
+                <div class="social-links">
+                    <a href="#">FB</a>
+                    <a href="#">IN</a>
+                    <a href="#">TW</a>
+                    <a href="#">IG</a>
+                </div>
+            </div>
+            <div class="footer-col links-col">
+                <h4>Quick Links</h4>
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="footer-col contact-col">
+                <h4>Contact Info</h4>
+                <p>📍 123 Business Avenue, Suite 100</p>
+                <p>📞 +1 (555) 123-4567</p>
+                <p>✉️ info@brandname.com</p>
+            </div>
+            <div class="footer-col newsletter-col">
+                <h4>Newsletter</h4>
+                <form action="#" class="newsletter-form">
+                    <input type="email" placeholder="Email Address" required>
+                    <button type="submit" class="btn btn-accent">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 BrandName Institution. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
