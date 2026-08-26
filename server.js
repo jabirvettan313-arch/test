@@ -32,6 +32,10 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
+app.get('/googlefa293db9a47db00a.html', (req, res) => {
+    res.sendFile(path.join(__dirname, 'googlefa293db9a47db00a.html'));
+});
+
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
